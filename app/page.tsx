@@ -1,7 +1,12 @@
-import Image from "next/image";
+'use client'
+
+import "./globals.css";
+import { HomePage } from "./pages/Home";
 
 export default function Home() {
   return (
-    <div></div>
+    <div>
+      <HomePage />
+    </div>
   );
 }
